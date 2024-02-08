@@ -1,0 +1,934 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+#hero img
+{
+    width: 100%;
+    height: 93vh;
+    background-color: #000;
+    position: relative;
+    background-size: cover;
+}
+#hero #navbar
+{
+    position: absolute;
+    width: 70%;
+    height: 13vh;
+    background-color: #000;
+    top: 0;
+    left: 170px;
+}
+#hero #logo img
+{
+    position: absolute;
+    top: 9px;
+    width: 55px;
+    height: 10vh;
+    left: 195px;
+    background-size: cover;
+}
+#hero #gaming
+{
+    position: absolute;
+    top: 25px;
+    width: 100px;
+    height: 7vh;
+    left: 280px;
+}
+#hero #gaming a
+{
+    text-decoration: none;
+    color: #fff;   
+    font-family: 'Roboto', sans-serif;
+}
+#hero #carrer
+{
+    position: absolute;
+    top: 25px;
+    width: 100px;
+    height: 7vh;
+    left: 400px;
+}
+#hero #carrer a
+{
+    text-decoration: none;
+    color: #fff;  
+    font-family: 'Roboto', sans-serif;
+}
+#hero #support
+{
+    position: absolute;
+    top: 25px;
+    width: 100px;
+    height: 7vh;
+    left: 520px;
+}
+#hero #support a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+#hero #aboutus
+{
+    position: absolute;
+    top: 25px;
+    width: 100px;
+    height: 7vh;
+    left: 640px;
+}
+#hero #aboutus a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+#hero #store 
+{
+    position: absolute;
+    top: 13px;
+    width: 50px;
+    height: 50px;
+    left: 760px;
+    background-color: #545454;
+    border-radius: 50%;
+}
+#hero #store:hover
+{
+    background-color: #fff;
+}
+#hero #creator
+{
+    position: absolute;
+    top: 13px;
+    width: 50px;
+    height: 50px;
+    left: 820px;
+    background-color: #545454;
+    border-radius: 50%;
+}
+#hero #creator:hover
+{
+   background-color: #fff;
+}
+#hero #make
+{
+    position: absolute;
+    top: 13px;
+    width: 50px;
+    height: 50px;
+    left: 880px;
+    background-color: #545454;
+    border-radius: 50%;
+}
+#hero #make:hover
+{
+    background-color: #fff;
+}
+#hero #ident
+{
+    position: absolute;
+    top: 13px;
+    width: 50px;
+    height: 50px;
+    left: 940px;
+    background-color: #545454;
+    border-radius: 50%;
+}
+#hero #ident:hover
+{
+   background-color: #fff;
+}
+#hero #search
+{
+    position: absolute;
+    top: 13px;
+    width: 50px;
+    height: 50px;
+    left: 1000px;
+    background-color: #545454;
+    border-radius: 50%;
+}
+#hero #search:hover
+{
+    background-color: #fff;
+}
+.ri-store-3-fill
+{
+    font-size: 35px;
+    color: #000;
+    position: absolute;
+    top: -2px;
+    left: 7px;
+}
+.ri-store-3-fill:hover
+{
+    color: rgb(0, 0, 0);
+}
+.ri-creative-commons-by-line
+{
+    font-size: 35px;
+    color: #000;
+    position: absolute;
+    top: -2px;
+    left: 7px;
+}
+.ri-creative-commons-by-line:hover
+{
+    color: rgb(0, 0, 0);
+}
+.ri-home-wifi-fill
+{
+    font-size: 35px;
+    color: #000;
+    position: absolute;
+    top: -2px;
+    left: 7px;
+}
+.ri-home-wifi-fill:hover
+{
+    color: rgb(0, 0, 0);
+}
+.ri-verified-badge-fill
+{
+    font-size: 35px;
+    color: #000;
+    position: absolute;
+    top: -2px;
+    left: 7px;
+}
+.ri-verified-badge-fill:hover
+{
+    color: rgb(44, 44, 237);
+}
+.ri-user-search-fill
+{
+    font-size: 35px;
+    color: #000;
+    position: absolute;
+    top: -2px;
+    left: 7px;
+}
+.ri-user-search-fill:hover
+{
+    color: #000000;
+}
+@media (min-width: 701px) {
+    #navbar #menu button {
+       display: none;
+   }
+   #hero #navbar #menu-items
+   {
+    display: none;
+   }
+}
+
+@media (max-width:700px) {
+    #page2 #picture img
+   {
+    top: 10px;
+    left: 10px;
+    width: 50px;
+   }
+    #navbar #menu button .ri-menu-line {
+       background-color: #000;
+       opacity: 1;
+   }
+
+
+    #hero img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    #hero #navbar
+   {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+   }
+   #hero #logo img
+   {
+    position: absolute;
+    top: 10px;
+    width: 55px;
+    height: 9vh;
+    left: 5px;
+    background-size: cover;
+   }
+   #hero #gaming
+   {
+    display: none;
+   }
+
+    #hero #carrer
+   {
+ display: none;
+   }
+   #hero #support a
+   {
+    display: none;
+   }
+   #hero
+   {
+    overflow: hidden;
+   }
+   #menu 
+   {
+    background-color: #000;
+   }
+   #page3 #news h1
+   {
+    left: 200px;
+   }
+   #page3  #cool1
+   {
+     left: 0px;
+     display: block;
+     
+   }
+   #page3  #cool2
+   {
+    left: 0px;
+    display: block;
+
+   }
+   #page3  #hi1 a
+   {
+    left: 200px;
+   }
+}
+
+
+#hero #navbar #games
+{
+    position: absolute;
+    width: 100%;
+    height: 13vh;
+    background-color: #000000;
+    color: #fff;
+    top: -80px;
+    left: 0px;
+    z-index: 999;
+    transition: 1s;
+    font-family: 'Roboto', sans-serif;
+}
+#hero #navbar #games h1
+{
+    padding: 10px 20px;
+}
+#hero #navbar #btn button
+{
+    display: none;
+}
+#hero #navbar #gamess
+{
+    position: absolute;
+    width: 100%;
+    height: 13vh;
+    background-color: #000000;
+    color: #fff;
+    top: -160px;
+    left: 0px;
+    z-index: 999;
+    transition: 1s; 
+    font-family: 'Roboto', sans-serif;
+}
+#hero #navbar #gamess h1
+{
+    padding: 10px 20px;
+}
+#hero #navbar #gamesss
+{
+    position: absolute;
+    width: 100%;
+    height: 13vh;
+    background-color: #000000;
+    color: #fff;
+    top: -240px;
+    left: 0px;
+    z-index: 999;
+    transition: 1s;
+    font-family: 'Roboto', sans-serif;
+}
+#hero #navbar #gamesss h1
+{
+    padding: 10px 20px;
+}
+#hero #navbar #gamessss
+{
+    position: absolute;
+    width: 100%;
+    height: 13vh;
+    background-color: #000000;
+    color: #fff;
+    top: -320px;
+    left: 0px;
+    z-index: 999;
+    transition: 1s;
+    font-family: 'Roboto', sans-serif;
+}
+#hero #navbar #gamessss h1
+{
+    padding: 10px 20px;
+}
+#hero #navbar #menu button 
+{
+    position: absolute;
+    width: 50px;
+    height: 7vh;
+    background-color: #000000;
+    color: #fff;
+    top: 10px;
+    left: 450px;
+    font-size: 25px;
+    border: none;
+} 
+#hero #navbar #menu-items
+{
+   position: absolute;
+   background-color: #000000;
+   width: 100%;
+   height: 40vh;
+   z-index: 9999;
+   top: -350%;
+   transition: 1s;
+}
+#hero #navbar #menu-items ul
+{
+    display: block;
+    padding: 10px;
+}
+#hero #navbar #menu-items ul li
+{
+    display: block;
+    padding: 20px;
+}
+#hero #navbar #menu-items ul li a
+{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+#hero #navbar #menu-items #cross button .ri-home-smile-2-fill
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 410px;
+    color: #fff;
+    top: 0px;
+    font-size: 40px;
+    transition: 1s;
+}
+#page2
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+#page2 #picture img
+{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: -50px;
+}
+#page2 #pictures
+{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 650px;
+}
+#page2 #pictures p
+{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 60px;
+    font-size: 20px;
+}
+#page2 #pictures h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+
+}
+#page2 #pictures button
+{
+    width: 100px;
+    height: 20px;
+    padding: 20px 70px;
+    text-align: center;
+}
+#page2 #btn1
+{
+    position: absolute;
+    background-color: #000;
+    width: 170px;
+    height: 60px;
+    top: 450px;
+    left: 650px;
+    border-radius: 10px;
+}
+#page2 #btn2
+{
+    position: absolute;
+    background-color: #000000;
+    width: 170px;
+    height: 60px;
+    top: 450px;
+    left: 850px;
+    border-radius: 10px;
+}
+#page2 #btn3
+{
+    position: absolute;
+    background-color: #000000;
+    width: 170px;
+    height: 60px;
+    top: 450px;
+    left: 1050px;
+    border-radius: 10px;
+}
+#btn1 #anc1 a
+{
+    position: absolute;
+    top: 19px;
+    left: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+#btn2 #anc2 a
+{
+    position: absolute;
+    top: 19px;
+    left: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+#btn3 #anc3 a
+{
+    position: absolute;
+    top: 19px;
+    left: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+#page3
+{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 130vh;
+    overflow: hidden;
+}
+#news h1
+{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 600px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+#cool1 img
+{
+    width: 500px;
+    height: 300px;
+    background-color: #000;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#cool2 img
+{
+    width: 500px;
+    height: 300px;
+    background-color: #000;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+#hi1 a
+{
+    width: 300px;
+    height: 50px;
+    top: 510px;
+    position: absolute;
+    left: 270px;
+    text-decoration: none;
+    color: #d103ff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+#hi2 a
+{
+    width: 300px;
+    height: 50px;
+    top: 510px;
+    position: absolute;
+    left: 920px;
+    text-decoration: none;
+    color: #d103ff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+#my h1
+{
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    width: 300px;
+    height: 50px;
+    color: #000;
+    font-size: 16px;
+}
+#my2 h1
+{
+    position: absolute;
+    color: #000;
+    top: 550px;
+    left: 800px;
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+}
+#my-btn button
+{
+    position: absolute;
+    color: #ffffff;
+    background-color: #1184f8;
+    top: 650px;
+    left: 530px;
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#page4
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+#page4 img
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#mobile img
+{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 200px;
+    left: 800px;
+    border-radius: 10px;
+}
+#follow
+{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 200px;
+    left: 100px;
+    border-radius: 10px;
+}
+#follow h1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+#follow p
+{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+#follow h6
+{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+.ri-registered-line
+{
+    color: #fff;
+    font-size: 35px;
+}
+.ri-youtube-line
+{
+    color: #fff;
+    font-size: 35px; 
+}
+.ri-facebook-box-fill
+{
+    color: #fff;
+    font-size: 35px;
+}
+.ri-instagram-fill
+{
+    color: #fff;
+    font-size: 35px;   
+}
+.ri-twitter-fill
+{
+    color: #fff;
+    font-size: 35px;
+}
+#page5
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+#page5 #right-btn button
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 1190px;
+    border: none;
+    background-color: #000;
+    border-radius: 50px;
+}
+#page5 #left-btn button
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: -30px;
+    border: none;
+    background-color: #000;
+    border-radius: 50px;
+}
+.ri-arrow-left-line{
+    color: #ffffff;
+    font-size: 50px;
+}
+.ri-arrow-right-line
+{
+    color: #ffffff;
+    font-size: 50px;
+}
+#page5
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#page5
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+
+}
+#pic1 #pic2
+{
+    position: absolute;
+    left: 540px;
+}
+#pic1 #pic3
+{
+    position: absolute;
+    left: 1080px;
+}
+#pic1 #pic4
+{
+    position: absolute;
+    left: 1620px;
+}
+#pic1 #pic5
+{
+    position: absolute;
+    left: 2160px;
+}
+#page5 #pic1 
+{
+    width: 2650px;
+    height: 450px;
+    position: absolute;
+    top: 50px;
+    left: -550px; 
+    opacity: 1;
+    transition: 20s;
+}
+
+#page5 #pic1 img
+{
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    background-size: cover;
+}
+#page5  button
+{
+    width: 400px;
+    height: 50px;
+    background-color: #000;
+    z-index: 999;
+    position: absolute;
+    color: #fff;
+    left: 430px;
+    top: 505px;
+    opacity: 1;
+}
+#page5 #pic1 img
+{
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    background-size: cover;
+}
+#page6
+{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 70vh;
+}
+#page6 #pekka
+{
+    position: absolute;
+    background-color: rgba(22, 22, 200, 0.563);
+    width: 100%;
+    height: 53vh;
+    top: 100px;
+}
+#page6 #hgt h1
+{
+    position: absolute;
+    width: 700px;
+    height: 50px;
+    top: 50px;
+    left: 100px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+}
+#btn-secondary a
+{
+    position: absolute;
+    background-color: #000;
+    width: 200px;
+    height: 70px;
+    top: 150px;
+    left: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 22px;
+    border-radius: 15px;
+}
+#picpekka img
+{
+    position: absolute;
+    width: 300px;
+    height: 342px;
+    left: 900px;
+    top: -50px;
+}
+#page7
+{
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    background-color: #000;
+}
+#content
+{
+    position: absolute;
+    width: 1000px;
+    height: 15vh;
+    top: 10px;
+    left: 100px;
+    border-bottom: 1px solid #fff;
+}
+#content h6
+{
+    color: #fff;
+}
+#btn a
+{
+    position: absolute;
+    background-color: #1184f8;
+    top: 0;
+    left: 700px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #fff8f8;
+}
+#page8
+{
+    width: 100%;
+    height: 50vh;
+    background-color: #000;
+    position: relative;
+}
+#links
+{
+    position: absolute;
+    width: 1000px;
+    height: 15vh;
+    top: 10px;
+    left: 100px;
+}
+#links span a
+{
+    padding: 2px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+}
+#disable 
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    display: block;
+}
+#disable a
+{
+    display: block;
+    text-decoration: none;
+    color: #393838;
+}
+#logosucks img
+{
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    left: 900px;
+    margin-top: 30px;
+}
